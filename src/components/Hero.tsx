@@ -3,7 +3,7 @@ import { Zap, Battery, BarChart } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <div className="relative bg-gradient-to-b from-blue-50 to-white pt-24 pb-16">
+    <div className="relative bg-gradient-to-b from-blue-50 to-white pt-36 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6">
@@ -12,12 +12,12 @@ export default function Hero() {
             <br />
             for Car Dealerships
           </h1>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto mb-8">
+          <p className="text-xl text-gray-500 max-w-2xl mx-auto mb-8">
             Empower your dealership with innovative microsite solutions that showcase your EV inventory's features and data.
           </p>
           <a
             href="mailto:hello@dealever.ca"
-            className="inline-flex items-center px-8 py-3 border border-transparent text-lg font-medium rounded-lg text-white bg-blue-500 hover:bg-blue-600 transition-colors"
+            className="inline-flex items-center px-8 py-3 border border-transparent text-lg font-semibold rounded-lg text-white bg-blue-500 hover:bg-blue-600 transition-colors"
           >
             Transform Your Dealership Today
           </a>
