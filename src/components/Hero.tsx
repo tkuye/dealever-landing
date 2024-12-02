@@ -1,5 +1,5 @@
 import React from 'react';
-import { Zap, Battery, BarChart } from 'lucide-react';
+import { MessageSquare, Shield, Calculator } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -7,38 +7,39 @@ export default function Hero() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-gray-900 mb-6">
-            Revolutionizing
-            <span className="text-blue-500"> EV Education</span>
+            Making EV Shopping
+            <span className="text-blue-500"> Simple & Honest</span>
             <br />
-            for Car Dealerships
+            Through AI
           </h1>
           <p className="text-xl text-gray-500 max-w-2xl mx-auto mb-8">
-            Empower your dealership with innovative microsite solutions that showcase your EV inventory's features and data.
+            Your trusted AI assistant for transparent EV information, helping you make confident decisions without the traditional sales pressure.
           </p>
+          
           <a
             href="mailto:hello@dealever.ca"
             className="inline-flex items-center px-8 py-3 border border-transparent text-lg font-semibold rounded-lg text-white bg-blue-500 hover:bg-blue-600 transition-colors"
           >
-            Transform Your Dealership Today
+            Start Your EV Journey Today
           </a>
         </div>
         
         <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
             {
-              icon: <Zap className="h-8 w-8 text-blue-500" />,
-              title: "Smart EV Features",
-              description: "Interactive displays of vehicle capabilities and charging specifications"
+              icon: <MessageSquare className="h-8 w-8 text-blue-500" />,
+              title: "AI-Powered Assistant",
+              description: "Natural conversations with an AI trained on millions of EV data points to answer all your questions"
             },
             {
-              icon: <Battery className="h-8 w-8 text-blue-500" />,
-              title: "Range Analytics",
-              description: "Real-time range calculations and charging station mapping"
+              icon: <Shield className="h-8 w-8 text-blue-500" />,
+              title: "Unbiased Guidance",
+              description: "Transparent, pressure-free advice to help you find the perfect EV for your needs"
             },
             {
-              icon: <BarChart className="h-8 w-8 text-blue-500" />,
-              title: "Performance Metrics",
-              description: "Detailed performance data and comparison tools"
+              icon: <Calculator className="h-8 w-8 text-blue-500" />,
+              title: "Complete Cost Analysis",
+              description: "Get electric rates, charging installation quotes, and total ownership costs upfront"
             }
           ].map((feature, index) => (
             <div key={index} className="bg-white p-6 rounded-xl shadow-sm hover:shadow-md transition-shadow">

@@ -1,27 +1,27 @@
 import React from 'react';
-import { Monitor, Users, Lightbulb, Gauge } from 'lucide-react';
+import { MessageSquare, Brain, Database, Calculator } from 'lucide-react';
 
 export default function Features() {
   const features = [
     {
-      icon: <Monitor className="h-6 w-6 text-blue-500" />,
-      title: "Interactive Microsites",
-      description: "Custom-built digital showrooms that showcase your EV inventory with engaging, interactive features."
+      icon: <MessageSquare className="h-6 w-6 text-blue-500" />,
+      title: "Natural Conversations",
+      description: "Ask questions about EVs in plain English and get clear, honest answers from our AI assistant."
     },
     {
-      icon: <Users className="h-6 w-6 text-blue-500" />,
-      title: "Staff Training",
-      description: "Comprehensive EV education programs to empower your sales team with expert knowledge."
+      icon: <Brain className="h-6 w-6 text-blue-500" />,
+      title: "Intelligent Matching",
+      description: "Our AI analyzes your needs, driving habits, and preferences to recommend the perfect EV for you."
     },
     {
-      icon: <Lightbulb className="h-6 w-6 text-blue-500" />,
-      title: "Consumer Education",
-      description: "Easy-to-understand resources that help customers make informed decisions about EV adoption."
+      icon: <Database className="h-6 w-6 text-blue-500" />,
+      title: "Comprehensive Data",
+      description: "Access millions of data points about EVs, charging networks, and real owner experiences."
     },
     {
-      icon: <Gauge className="h-6 w-6 text-blue-500" />,
-      title: "Performance Tracking",
-      description: "Advanced analytics to monitor engagement and optimize your EV sales strategy."
+      icon: <Calculator className="h-6 w-6 text-blue-500" />,
+      title: "Complete Cost Analysis",
+      description: "Get transparent pricing, utility rates, charging costs, and installation quotes all in one place."
     }
   ];
 
@@ -29,8 +29,8 @@ export default function Features() {
     <div className="py-16 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold text-gray-900">Comprehensive EV Solutions</h2>
-          <p className="mt-4 text-xl text-gray-600">Everything you need to succeed in the electric vehicle market</p>
+          <h2 className="text-3xl font-bold text-gray-900">Your AI EV Guide</h2>
+          <p className="mt-4 text-xl text-gray-600">Skip the sales pressure - get honest answers and make confident decisions</p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
